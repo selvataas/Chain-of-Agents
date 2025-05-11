@@ -11,8 +11,8 @@ load_dotenv()
 
 app = Flask(__name__)
 coa = ChainOfAgents(
-    worker_model="meta-llama/Llama-3.3-70B-Instruct-Turbo-Free",
-    manager_model="meta-llama/Llama-3.3-70B-Instruct-Turbo-Free",
+    worker_model="meta-llama/Meta-Llama-3.1-8B-Instruct",
+    manager_model="meta-llama/Meta-Llama-3.1-8B-Instruct",
     chunk_size=2000
 )
 
